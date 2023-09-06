@@ -8,13 +8,13 @@ require "./variables.pl";
 ########################################################################
 $wallet_output = `$rpc_cli listwallets`;
 my @wallets = split "\n", $wallet_output;
+push @wallets, @manual_wallets;  ## add manual wallets, but check for syntax
+
 while($wallet = shift @wallets){
   if($wallet =~ m/\"([\w\-\_]+)\"/){
     push @allWallets, $1;
   }
 }
-
-push @allWallets, @wallets;
 
 ########################################################################
 ## Begin building the command line to create the initial PSBT.
