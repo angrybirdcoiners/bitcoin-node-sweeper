@@ -36,7 +36,7 @@ Copy/paste the command to broadcast the raw transaction.
 
 Sample Output
 -------
-Sample output from the run that produced this [https://mempool.space/tx/cb01f1b4a9eb2e090b42f7881780dfe47e5f4f7a7eec3dfaaea3d8b3d9280dea](transaction) is at [sample.txt](sample.txt).
+Sample output from the run that produced this [transaction](https://mempool.space/tx/cb01f1b4a9eb2e090b42f7881780dfe47e5f4f7a7eec3dfaaea3d8b3d9280dea) is at [sample.txt](sample.txt).
 
 Known Limitations
 -------
