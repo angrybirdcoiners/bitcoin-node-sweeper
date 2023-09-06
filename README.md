@@ -20,18 +20,18 @@ information.
 
 Usage 
 -------------------
-## 1. 
+### 1. Update Variables
 Modify [variables.pl](variables.pl) to fill in your node's RPC information, final payout address, and the number of target confirmations. You can also add any other wallets that may not be loaded into Bitcoind.  If bitcoind needs to scan/update those wallets, the behavior could be indeterminate.  
-## 2. 
-Execute bitcoin-node-sweeper:
+### 2. Execute
+Run bitcoin-node-sweeper:
 
 ```
 $ perl bitcoin-node-sweeper.pl
 ```
-## 3.
+### 3. Verify
 Verify the inputs and outputs that are printed.
 
-## 4.
+### 4. Broadcast Transaction
 Copy/paste the command to broadcast the raw transaction.
 
 Known Limitations
