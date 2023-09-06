@@ -12,6 +12,11 @@ I would fund each wallet with more sats than necessary to ensure there were enou
 there would often be dust left in each of the potentially hundreds of individual wallets. Usually, the amount left
 over would be too little to send out in it's own transaction.
 
+Hat Tip
+-------
+Thanks to the @BlockchainCommons folks who have done a fantastic job of walking through many of these concepts, which I leaned on heavily.
+https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line 
+
 License
 -------
 
@@ -41,5 +46,5 @@ Sample output from the run that produced this [transaction](https://mempool.spac
 Known Limitations
 -------
 1. It currently only handles wallets with numbers, letters, hypnens (-), and underscores (_).  Character class:  [\w\-\_]
-2. Only tested up to 75 total UTXOs.
+2. Only tested up to 50 total UTXOs.
 3. Only tested with wallets that were loaded on startup out of bitcoin.conf.
