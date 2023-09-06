@@ -14,7 +14,7 @@ over would be too little to send out in it's own transaction.
 
 Hat Tip
 -------
-Thanks to the @BlockchainCommons folks who have done a fantastic job of walking through many of these concepts, which I leaned on heavily.
+Thanks to the BlockchainCommons folks who have done a fantastic job of walking through many of these concepts, which I leaned on heavily.
 https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line 
 
 License
