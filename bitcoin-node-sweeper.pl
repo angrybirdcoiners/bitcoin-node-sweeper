@@ -66,7 +66,7 @@ $initial_psbt = `$estimate_command`;
 chomp($initial_psbt);
 $vsize = `$rpc_cli decodepsbt \"$initial_psbt\" | jq -r .tx.vsize`;
 chomp($vsize);
-$estimated_fees = $vsize * $estimated_fee_rate;
+$estimated_fees = $vsize * $estimated_fee_rate + 15*scalar(@utxo_wallets);  ## Adding additional vbytes for the signatures that weren't previously included
 $estimated_fees = sprintf("%0.8f",$estimated_fees);
 printf("The estimated fee rate for $confirmations-block confirmation is %0.2f/vB or %0.8f total BTC. (%0.3f%s of %0.8f)\n\n",$estimated_fee_rate * 100000000,$estimated_fees,$estimated_fees/$amount*100, "%",$amount);
 
