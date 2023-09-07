@@ -1,0 +1,145 @@
+node:~/bitcoin-node-sweeper$ perl bitcoin-node-sweeper-rbf.pl 56ce3c1b6a25e8572055762a34c538c5dd06151cb3f3788bbc469c05d069219c
+No more txid's
+{
+  "inputs": [
+    {
+      "has_utxo": true,
+      "is_final": true,
+      "next": "extractor"
+    },
+    {
+      "has_utxo": true,
+      "is_final": true,
+      "next": "extractor"
+    },
+    {
+      "has_utxo": true,
+      "is_final": true,
+      "next": "extractor"
+    }
+  ],
+  "fee": 0.00003524,
+  "next": "extractor"
+}
+
+{
+  "tx": {
+    "txid": "a966a43ad8176f6fd2cd1c21f00c1867b5428d4864ef20cc4bda15bd0b84897d",
+    "hash": "a966a43ad8176f6fd2cd1c21f00c1867b5428d4864ef20cc4bda15bd0b84897d",
+    "version": 2,
+    "size": 165,
+    "vsize": 165,
+    "weight": 660,
+    "locktime": 0,
+    "vin": [
+      {
+        "txid": "d704a47bd894b1bfd8542be72d45fc4e2966c407f4cb91915645dc2fbb878d29",
+        "vout": 1,
+        "scriptSig": {
+          "asm": "",
+          "hex": ""
+        },
+        "sequence": 4294967294
+      },
+      {
+        "txid": "a7621673ca9a18d0d8d208e1c167f9d43b9cc330f19d3f799a65b451d5b1b320",
+        "vout": 1,
+        "scriptSig": {
+          "asm": "",
+          "hex": ""
+        },
+        "sequence": 4294967294
+      },
+      {
+        "txid": "9dd172b51897e91cad149ddabdeaba690ef06b20edbe7236fc6e47fe21f53db9",
+        "vout": 1,
+        "scriptSig": {
+          "asm": "",
+          "hex": ""
+        },
+        "sequence": 4294967294
+      }
+    ],
+    "vout": [
+      {
+        "value": 0.00005198,
+        "n": 0,
+        "scriptPubKey": {
+          "asm": "OP_HASH160 5f607dd83d67cbf478e5e8eaf6c322ef1785c3f3 OP_EQUAL",
+          "desc": "addr(3APKi7vek4D7GunkVmc6b8q2kP8jeXBxsj)#kw5kdcgd",
+          "hex": "a9145f607dd83d67cbf478e5e8eaf6c322ef1785c3f387",
+          "address": "3APKi7vek4D7GunkVmc6b8q2kP8jeXBxsj",
+          "type": "scripthash"
+        }
+      }
+    ]
+  },
+  "global_xpubs": [
+  ],
+  "psbt_version": 0,
+  "proprietary": [
+  ],
+  "unknown": {
+  },
+  "inputs": [
+    {
+      "witness_utxo": {
+        "amount": 0.00004330,
+        "scriptPubKey": {
+          "asm": "1 ec78b4e4bf5554d8b8997d7a3ba128225659cdb627fcfb6ea2710eccf4c6ac10",
+          "desc": "rawtr(ec78b4e4bf5554d8b8997d7a3ba128225659cdb627fcfb6ea2710eccf4c6ac10)#wvr954wm",
+          "hex": "5120ec78b4e4bf5554d8b8997d7a3ba128225659cdb627fcfb6ea2710eccf4c6ac10",
+          "address": "bc1pa3utfe9l242d3wye04arhgfgyft9nndkyl70km4zwy8veaxx4sgq3ywwpl",
+          "type": "witness_v1_taproot"
+        }
+      },
+      "final_scriptwitness": [
+        "eb6b3ca92eef1fbebbd1862648c832fe6901d5e484793abeec43409d1b2f96dbd3cdc9877847451f8553fb1ce0e146f33e940a774f44de8a37fef20eaeef2b5d"
+      ]
+    },
+    {
+      "witness_utxo": {
+        "amount": 0.00000504,
+        "scriptPubKey": {
+          "asm": "1 ef73592e1459e145f755ea9ce6d6508fedbea268edddb795763bb8a6cfdfec98",
+          "desc": "rawtr(ef73592e1459e145f755ea9ce6d6508fedbea268edddb795763bb8a6cfdfec98)#49k22300",
+          "hex": "5120ef73592e1459e145f755ea9ce6d6508fedbea268edddb795763bb8a6cfdfec98",
+          "address": "bc1paae4jts5t8s5ta64a2wwd4js3lkmagngahwm09tk8wu2dn7lajvqxl9t87",
+          "type": "witness_v1_taproot"
+        }
+      },
+      "final_scriptwitness": [
+        "e2180441830a1f9498ba687be0c4754a6e4d507059acb5e0c0360a2aa81ef476d667c0616db86b752f4005823c70dd09b3433d683fd1bceadaea6f7c7a8e2f2f"
+      ]
+    },
+    {
+      "witness_utxo": {
+        "amount": 0.00003888,
+        "scriptPubKey": {
+          "asm": "1 f34e466ac89f8dcfc16f3aad0251317f77a469410eeeb4c18763f64274773199",
+          "desc": "rawtr(f34e466ac89f8dcfc16f3aad0251317f77a469410eeeb4c18763f64274773199)#49jqdfme",
+          "hex": "5120f34e466ac89f8dcfc16f3aad0251317f77a469410eeeb4c18763f64274773199",
+          "address": "bc1p7d8yv6kgn7xulst082ksy5f30am6g62ppmhtfsv8v0myyarhxxvsvk22ps",
+          "type": "witness_v1_taproot"
+        }
+      },
+      "final_scriptwitness": [
+        "399ffaed8f808e3c3376ab87de5116b7cd8281dec187806273d8361e660026ed93270ed7325e246b8b5c04ffa1f22fe6030a4d2628966a25d82a3d9212859e5e"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+    }
+  ],
+  "fee": 0.00003524
+}
+
+WARNING: VERIFY ALL INPUTS/OUTPUTS BEFORE BROADCASTING THIS TRANSACTION!!
+         When you are ready, execute the following command to braodcast this transaction
+
+bitcoin-cli --rpccookiefile=/data/bitcoin/.cookie --rpcuser=bitcoin --rpcconnect=node.local --rpcport=8332 -rpcpassword="passwordstring"  -rpcclienttimeout=3600  sendrawtransaction "02000000000103298d87bb2fdc45569191cbf407c466294efc452de72b54d8bfb194d87ba404d70100000000feffffff20b3b1d551b4659a793f9df130c39c3bd4f967c1e108d2d8d0189aca731662a70100000000feffffffb93df521fe476efc3672beed206bf00e69baeabdda9d14ad1ce99718b572d19d0100000000feffffff014e1400000000000017a9145f607dd83d67cbf478e5e8eaf6c322ef1785c3f3870140eb6b3ca92eef1fbebbd1862648c832fe6901d5e484793abeec43409d1b2f96dbd3cdc9877847451f8553fb1ce0e146f33e940a774f44de8a37fef20eaeef2b5d0140e2180441830a1f9498ba687be0c4754a6e4d507059acb5e0c0360a2aa81ef476d667c0616db86b752f4005823c70dd09b3433d683fd1bceadaea6f7c7a8e2f2f0140399ffaed8f808e3c3376ab87de5116b7cd8281dec187806273d8361e660026ed93270ed7325e246b8b5c04ffa1f22fe6030a4d2628966a25d82a3d9212859e5e00000000"
+node:~/bitcoin-node-sweeper$ bitcoin-cli --rpccookiefile=/data/bitcoin/.cookie --rpcuser=bitcoin --rpcconnect=node.local --rpcport=8332 -rpcpassword="passwordstring"  -rpcclienttimeout=3600  sendrawtransaction "02000000000103298d87bb2fdc45569191cbf407c466294efc452de72b54d8bfb194d87ba404d70100000000feffffff20b3b1d551b4659a793f9df130c39c3bd4f967c1e108d2d8d0189aca731662a70100000000feffffffb93df521fe476efc3672beed206bf00e69baeabdda9d14ad1ce99718b572d19d0100000000feffffff014e1400000000000017a9145f607dd83d67cbf478e5e8eaf6c322ef1785c3f3870140eb6b3ca92eef1fbebbd1862648c832fe6901d5e484793abeec43409d1b2f96dbd3cdc9877847451f8553fb1ce0e146f33e940a774f44de8a37fef20eaeef2b5d0140e2180441830a1f9498ba687be0c4754a6e4d507059acb5e0c0360a2aa81ef476d667c0616db86b752f4005823c70dd09b3433d683fd1bceadaea6f7c7a8e2f2f0140399ffaed8f808e3c3376ab87de5116b7cd8281dec187806273d8361e660026ed93270ed7325e246b8b5c04ffa1f22fe6030a4d2628966a25d82a3d9212859e5e00000000"
+
+a966a43ad8176f6fd2cd1c21f00c1867b5428d4864ef20cc4bda15bd0b84897d
+node:~/bitcoin-node-sweeper$ 
