@@ -52,7 +52,9 @@ Known Limitations
 
 Bitcoin Node Sweeper - Replace by Fee
 =====================================
-This version allows you to resend a sweep transaction with replace by fee.
+This version allows you to resend a sweep transaction with replace by fee.  It simply takes 5% off the single combined output, and applies it to the fees.  If that increase isn't sufficient, you may re-run the RBF script again.
+
+CAUTION: If the combined output is large, 5% may increase your fee rate too much.
 
 Usage 
 -------------------
