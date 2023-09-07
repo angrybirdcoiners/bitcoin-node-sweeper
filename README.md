@@ -48,3 +48,27 @@ Known Limitations
 1. It currently only handles wallets with numbers, letters, hypnens (-), and underscores (_).  Character class:  [\w\-\_]
 2. Only tested up to 50 total UTXOs.
 3. Only tested with wallets that were loaded on startup out of bitcoin.conf.
+
+
+Bitcoin Node Sweeper - Replace by Fee
+=====================================
+This version allows you to resend a sweep transaction with replace by fee.
+
+Usage 
+-------------------
+### 1. Execute
+Run bitcoin-node-sweeper-rbf:
+
+```
+$ perl bitcoin-node-sweeper-rbf.pl PREVIOUSTXID
+```
+### 3. Verify
+Verify the inputs and outputs that are printed.
+
+### 4. Broadcast Transaction
+Copy/paste the command to broadcast the raw RBF transaction.
+
+Sample Output
+-------
+Sample output from the run that produced this [RBF Transaction](https://mempool.space/tx/a966a43ad8176f6fd2cd1c21f00c1867b5428d4864ef20cc4bda15bd0b84897d) is at [sample-rbf.txt](sample-rbf.txt).
+
