@@ -27,7 +27,7 @@ Usage
 -------------------
 ### 1. Update Variables
 Modify [variables.pl](variables.pl) to fill in your node's RPC information, final payout address, and the number of target confirmations. You can also add any other wallets that may not be loaded into Bitcoind.  If bitcoind needs to scan/update those wallets, the behavior could be indeterminate.  
-### 2. Execute
+### 2. Execute to Generate the CLI Transaction Text (THIS WILL NOT MOVE/SEND/BROADCAST ANYTHING)
 Run bitcoin-node-sweeper:
 
 ```
@@ -37,7 +37,7 @@ $ perl bitcoin-node-sweeper.pl
 Verify the inputs and outputs that are printed.
 
 ### 4. Broadcast Transaction
-Copy/paste the command to broadcast the raw transaction.
+Copy/paste the commands to generate/sign/broadcast the raw transaction.
 
 Sample Output
 -------
